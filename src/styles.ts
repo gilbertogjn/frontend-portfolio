@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-    textGray: '#55555',
+    textGray: '#555555',
     btnGray: '#353535'
 }
 

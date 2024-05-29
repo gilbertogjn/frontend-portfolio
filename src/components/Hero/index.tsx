@@ -6,9 +6,9 @@ export const Hero = () => (
     <div className="container">
       <HeroImg src={profile} />
       <HeroInfo>
-        <p>Olá, sou</p>
+        <p className="text_p1">Olá, sou</p>
         <h1>Gilberto Garcia</h1>
-        <p>Frontend Developer</p>
+        <p className="text_p2">Frontend Developer</p>
         <div></div>
       </HeroInfo>
     </div>
