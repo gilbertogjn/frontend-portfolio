@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
+    textBlack:'#000000',
+    textWhite: '#ffffff',
     textGray: '#555555',
     btnGray: '#353535'
 }
@@ -16,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
+        color: ${colors.textBlack};
     }
 
     .container {

@@ -7,13 +7,15 @@ export const HeroContainer = styled.section`
   .container {
     display: flex;
     justify-content: center;
-    gap: 5rem
+    align-items: center;
+    gap: 5rem;
+    height: 83vh;
   }
 `;
 
 export const HeroImg = styled.img`
-  width: 100%;
-  max-width: 400px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
 `;
 
@@ -24,7 +26,9 @@ export const HeroInfo = styled.div`
   justify-content: center;
   text-align: center;
 
-  .text_p1, .text_p2, h1 {
+  .text_p1,
+  .text_p2,
+  h1 {
     font-weight: 600;
   }
 
@@ -36,4 +40,17 @@ export const HeroInfo = styled.div`
     font-size: 1.75rem;
     color: ${colors.textGray};
   }
+`;
+
+export const BtnsContainer = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+`;
+
+export const SocialContainer = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
 `;
