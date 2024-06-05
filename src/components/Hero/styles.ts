@@ -3,6 +3,7 @@ import { colors } from "../../styles";
 
 export const HeroContainer = styled.section`
   width: 100%;
+  margin-bottom: 6rem;
 
   .container {
     display: flex;

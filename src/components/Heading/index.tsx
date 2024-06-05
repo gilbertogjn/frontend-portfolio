@@ -1,13 +1,15 @@
+import { HeadingContainer } from "./styles";
+
 type Props = {
   title: string;
   subtitle: string;
 };
 
 const Heading = ({ title, subtitle }: Props) => (
-  <div>
-    <h3>{subtitle}</h3>
+  <HeadingContainer>
+    <p>{subtitle}</p>
     <h2>{title}</h2>
-  </div>
+  </HeadingContainer>
 );
 
 export default Heading;
