@@ -1,7 +1,9 @@
 import Heading from "../Heading";
 import { AboutCard, AboutContainer, AboutInfo, CardsContainer } from "./styles";
 import profile from "../../images/profile.png";
+
 import { PiMedalFill } from "react-icons/pi";
+import { FaUserGraduate } from "react-icons/fa";
 
 const About = () => (
   <AboutContainer>
@@ -12,16 +14,16 @@ const About = () => (
         <div>
           <CardsContainer>
             <AboutCard>
-              <PiMedalFill />
+              <PiMedalFill className="icon"/>
               <h3>Experiência</h3>
               <p>1 ano de experiência</p>
               <p>Frontend Developer</p>
             </AboutCard>
             <AboutCard>
-              <PiMedalFill />
-              <h3>Experiência</h3>
-              <p>1 ano de experiência</p>
-              <p>Frontend Developer</p>
+              <FaUserGraduate className="icon"/>
+              <h3>Formação</h3>
+              <p>Graduado em Análise e Desenvolvimento de Sistemas</p>
+              <p>Especialização como Engenheiro Frontend</p>
             </AboutCard>
           </CardsContainer>
           <p>

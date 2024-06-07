@@ -7,6 +7,7 @@ export const HeadingContainer = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 3rem;
 
   h2 {
     font-size: 3rem;
