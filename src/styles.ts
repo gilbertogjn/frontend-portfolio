@@ -4,7 +4,9 @@ export const colors = {
     textBlack:'#000000',
     textWhite: '#ffffff',
     textGray: '#555555',
-    btnGray: '#353535'
+    btnGray: '#353535',
+    bgWhite: '#fafafa',
+    borderGray: '#a3a3a3'
 }
 
 export const GlobalStyle = createGlobalStyle`

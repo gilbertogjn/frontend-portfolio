@@ -1,6 +1,6 @@
 import Heading from "../Heading";
 import { AboutCard, AboutContainer, AboutInfo, CardsContainer } from "./styles";
-import profile from "../../images/profile.png";
+import profile2 from "../../images/profile2.jpg";
 
 import { PiMedalFill } from "react-icons/pi";
 import { FaUserGraduate } from "react-icons/fa";
@@ -10,7 +10,7 @@ const About = () => (
     <div className="container">
       <Heading title="Sobre" subtitle="Quem sou eu" />
       <AboutInfo>
-        <img src={profile} />
+        <img src={profile2} />
         <div>
           <CardsContainer>
             <AboutCard>
