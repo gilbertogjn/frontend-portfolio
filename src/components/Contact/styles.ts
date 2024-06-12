@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../../styles";
 
-export const ContactContainer = styled.div`
+export const ContactContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,20 @@ export const ContactContainer = styled.div`
 
     .links {
         display: flex;
-        gap: 1rem;
+        gap: 2.5rem;
         border: 1px solid ${colors.borderGray};
         border-radius: 2rem;
+        padding: 2rem;
+        font-size: 1.2rem;
+
+        .icon {
+            font-size: 1.8rem;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
     }
 `
