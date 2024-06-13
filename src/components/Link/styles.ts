@@ -6,8 +6,8 @@ export const LinkContainer = styled.a`
     cursor: pointer;
 
     &:hover {
-        color: ${colors.textGray};
-        border-bottom: 2px solid ${colors.textGray};
+        color: ${colors.borderGray};
+        border-bottom: 2px solid ${colors.borderGray};
         padding-bottom: 0.5rem;
     }
 `

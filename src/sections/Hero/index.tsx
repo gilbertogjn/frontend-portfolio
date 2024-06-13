@@ -6,7 +6,7 @@ import {
   SocialContainer,
 } from "./styles";
 import profile from "../../images/profile.png";
-import Button from "../Button";
+import Button from "../../components/Button";
 
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

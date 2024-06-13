@@ -20,7 +20,7 @@ export const CardContainer = styled.div`
 
     img {
         width: 300px;
-        height: 350px;
+        height: 300px;
         border-radius: 2rem;
     }
 

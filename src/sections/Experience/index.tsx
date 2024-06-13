@@ -1,9 +1,5 @@
-import Heading from "../Heading";
-import {
-  ExperienceCard,
-  ExperienceContainer,
-  IconContainer,
-} from "./styles";
+import Heading from "../../components/Heading";
+import { ExperienceCard, ExperienceContainer, IconContainer } from "./styles";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -16,6 +12,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import ScrollButton from "../../components/ScrollButton";
 
 const Experience = () => (
   <ExperienceContainer id="experience">
@@ -101,9 +99,17 @@ const Experience = () => (
               <p>Básico</p>
             </span>
           </IconContainer>
+          <IconContainer>
+            <RiNextjsFill className="icon" />
+            <span>
+              <h4>Next.js</h4>
+              <p>Básico</p>
+            </span>
+          </IconContainer>
         </div>
       </ExperienceCard>
     </div>
+    <ScrollButton anchor="#projects" />
   </ExperienceContainer>
 );
 

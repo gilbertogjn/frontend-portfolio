@@ -1,9 +1,10 @@
-import Heading from "../Heading";
+import Heading from "../../components/Heading";
 import { AboutCard, AboutContainer, AboutInfo, CardsContainer } from "./styles";
 import profile2 from "../../images/profile2.jpg";
 
 import { PiMedalFill } from "react-icons/pi";
 import { FaUserGraduate } from "react-icons/fa";
+import ScrollButton from "../../components/ScrollButton";
 
 const About = () => (
   <AboutContainer id="about">
@@ -14,13 +15,13 @@ const About = () => (
         <div>
           <CardsContainer>
             <AboutCard>
-              <PiMedalFill className="icon"/>
+              <PiMedalFill className="icon" />
               <h3>Experiência</h3>
               <p>1 ano de experiência</p>
               <p>Frontend Developer</p>
             </AboutCard>
             <AboutCard>
-              <FaUserGraduate className="icon"/>
+              <FaUserGraduate className="icon" />
               <h3>Formação</h3>
               <p>Graduado em Análise e Desenvolvimento de Sistemas</p>
               <p>Especialização como Engenheiro Frontend</p>
@@ -37,6 +38,7 @@ const About = () => (
         </div>
       </AboutInfo>
     </div>
+    <ScrollButton anchor="#experience" />
   </AboutContainer>
 );
 

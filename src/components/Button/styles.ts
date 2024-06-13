@@ -28,5 +28,10 @@ export const ButtonContainer = styled.button`
 
   &.project {
     width: 126px;
+    background-color: transparent;
+
+    &:hover {
+      background-color: ${colors.textBlack};
+    }
   }
 `;

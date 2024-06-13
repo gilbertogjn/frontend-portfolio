@@ -3,7 +3,6 @@ import { colors } from "../../styles";
 
 export const FooterContainer = styled.footer`
     width: 100%;
-    height: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;

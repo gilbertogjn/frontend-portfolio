@@ -1,4 +1,4 @@
-import Menu from "../Menu";
+import Menu from "../../components/Menu";
 import { FooterContainer } from "./styles";
 
 const Footer = () => (

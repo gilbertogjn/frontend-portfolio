@@ -1,13 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-    textBlack: '#000000',
-    textWhite: '#ffffff',
-    textGray: '#555555',
-    btnGray: '#353535',
-    bgWhite: '#fafafa',
-    borderGray: '#a3a3a3'
-}
+  textBlack: "#000000",
+  textWhite: "#ffffff",
+  textGray: "#555555",
+  btnGray: "#353535",
+  bgWhite: "#fafafa",
+  borderGray: "#a3a3a3",
+};
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -17,6 +17,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         list-style: none;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
 
     a {
         text-decoration: none;
@@ -37,6 +42,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     section, footer {
+        position: relative;
         padding: 4rem 0;
     }
-`
+`;
