@@ -1,15 +1,23 @@
 import Button from "../Button";
 import { CardContainer } from "./styles";
 
-const Card = () => (
+type Props = {
+  img: string;
+  alt: string;
+  title: string;
+  githubLink: string;
+  liveLink: string;
+};
+
+const Card = ({ img, alt, title, githubLink, liveLink }: Props) => (
   <CardContainer>
-    <img src="https://via.placeholder.com/300" alt="project 1" />
-    <h3>Project 1</h3>
+    <img src={img} alt={alt} />
+    <h3>{title}</h3>
     <div className="buttons">
-      <Button className="project" href={"#"}>
+      <Button className="project" href={githubLink}>
         Github
       </Button>
-      <Button className="project" href={"#"}>
+      <Button className="project" href={liveLink}>
         Live Demo
       </Button>
     </div>
