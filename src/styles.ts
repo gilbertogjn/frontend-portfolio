@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-    textBlack:'#000000',
+    textBlack: '#000000',
     textWhite: '#ffffff',
     textGray: '#555555',
     btnGray: '#353535',
@@ -34,5 +34,9 @@ export const GlobalStyle = createGlobalStyle`
             gap: 2rem;
             justify-content: space-between;
         }
+    }
+
+    section, footer {
+        padding: 4rem 0;
     }
 `

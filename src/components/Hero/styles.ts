@@ -3,14 +3,13 @@ import { colors } from "../../styles";
 
 export const HeroContainer = styled.section`
   width: 100%;
-  margin-bottom: 6rem;
 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 83vh;
+    height: 64vh;
   }
 `;
 

@@ -7,7 +7,6 @@ export const ContactContainer = styled.section`
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 3rem;
 
     .links {
         display: flex;

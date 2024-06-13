@@ -12,7 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 export const Hero = () => (
-  <HeroContainer>
+  <HeroContainer id="hero">
     <div className="container">
       <HeroImg src={profile} />
       <HeroInfo>
@@ -26,10 +26,10 @@ export const Hero = () => (
           </Button>
         </BtnsContainer>
         <SocialContainer>
-          <a href="#">
+          <a target="_blank" href="https://www.linkedin.com/in/gilbertogarcia-frontend/">
             <FaLinkedin />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://github.com/gilbertogjn">
             <FaGithub />
           </a>
         </SocialContainer>

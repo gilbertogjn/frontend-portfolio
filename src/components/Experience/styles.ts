@@ -7,7 +7,6 @@ export const ExperienceContainer = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 6rem;
 `;
 
 export const ExperienceCard = styled.div`

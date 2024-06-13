@@ -6,7 +6,6 @@ export const ProjectsContainer = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 8rem;
 `;
 
 export const CardsContainer = styled.div`

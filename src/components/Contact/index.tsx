@@ -5,10 +5,10 @@ import { ImMail } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => (
-  <ContactContainer>
+  <ContactContainer id="contact">
     <Heading title="Contato" subtitle="Fale comigo" />
     <div className="links">
-      <a href="gilbertogjn@gmail.com">
+      <a href="mailto:gilbertogjn@gmail.com">
         <ImMail className="icon" />
         gilbertogjn@gmail.com
       </a>

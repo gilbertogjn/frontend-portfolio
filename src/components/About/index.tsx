@@ -6,7 +6,7 @@ import { PiMedalFill } from "react-icons/pi";
 import { FaUserGraduate } from "react-icons/fa";
 
 const About = () => (
-  <AboutContainer>
+  <AboutContainer id="about">
     <div className="container">
       <Heading title="Sobre" subtitle="Quem sou eu" />
       <AboutInfo>

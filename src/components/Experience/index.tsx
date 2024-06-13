@@ -18,7 +18,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 
 const Experience = () => (
-  <ExperienceContainer>
+  <ExperienceContainer id="experience">
     <div className="container">
       <Heading title="Experiência" subtitle="Minha jornada" />
       <ExperienceCard>

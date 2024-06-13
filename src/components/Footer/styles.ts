@@ -9,14 +9,13 @@ export const FooterContainer = styled.footer`
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 2rem;
 
     nav {
         width: auto;
         display: flex;
         justify-content: center;
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     p {
