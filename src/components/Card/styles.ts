@@ -5,7 +5,7 @@ export const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid ${colors.borderGray};
     background-color: ${colors.bgWhite};
     border-radius: 2rem;

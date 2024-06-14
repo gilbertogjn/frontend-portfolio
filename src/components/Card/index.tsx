@@ -22,12 +22,14 @@ const Card = ({
   liveLink,
 }: Props) => (
   <CardContainer>
-    <img src={img} alt={alt} />
-    <div className="title-bar">
-      <h3>{title}</h3>
-      <span>{skills}</span>
+    <div>
+      <img src={img} alt={alt} />
+      <div className="title-bar">
+        <h3>{title}</h3>
+        <span>{skills}</span>
+      </div>
+      <p>{description}</p>
     </div>
-    <p>{description}</p>
     <div className="buttons">
       <Button className="project" href={githubLink}>
         Github
