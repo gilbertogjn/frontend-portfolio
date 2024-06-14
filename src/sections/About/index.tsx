@@ -17,23 +17,24 @@ const About = () => (
             <AboutCard>
               <PiMedalFill className="icon" />
               <h3>Experiência</h3>
-              <p>1 ano de experiência</p>
+              <p>• 5 anos de experiência como desenvolvedor Wordpress</p>
+              <p>• 1 ano de experiência</p>
               <p>Frontend Developer</p>
             </AboutCard>
             <AboutCard>
               <FaUserGraduate className="icon" />
               <h3>Formação</h3>
-              <p>Graduado em Análise e Desenvolvimento de Sistemas</p>
-              <p>Especialização como Engenheiro Frontend</p>
+              <p>
+                Graduado em Análise e Desenvolvimento de Sistemas, especializado
+                em Frontend Development
+              </p>
             </AboutCard>
           </CardsContainer>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            Sou um entusiasta de tecnologia apaixonado por criar experiências
+            visuais incríveis na web. Atualmente, estou à procura da minha
+            primeira oportunidade como desenvolvedor front-end para aplicar
+            minhas habilidades e conhecimento adquiridos.
           </p>
         </div>
       </AboutInfo>

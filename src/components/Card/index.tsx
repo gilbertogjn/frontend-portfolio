@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import Button from "../Button";
 import { CardContainer } from "./styles";
 
@@ -5,14 +6,28 @@ type Props = {
   img: string;
   alt: string;
   title: string;
+  skills: ReactNode;
+  description: string;
   githubLink: string;
   liveLink: string;
 };
 
-const Card = ({ img, alt, title, githubLink, liveLink }: Props) => (
+const Card = ({
+  img,
+  alt,
+  title,
+  skills,
+  description,
+  githubLink,
+  liveLink,
+}: Props) => (
   <CardContainer>
     <img src={img} alt={alt} />
-    <h3>{title}</h3>
+    <div className="title-bar">
+      <h3>{title}</h3>
+      <span>{skills}</span>
+    </div>
+    <p>{description}</p>
     <div className="buttons">
       <Button className="project" href={githubLink}>
         Github

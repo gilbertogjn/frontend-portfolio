@@ -6,21 +6,40 @@ export const CardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     border: 1px solid ${colors.borderGray};
     background-color: ${colors.bgWhite};
     border-radius: 2rem;
     padding: 2rem;
-    gap: 1rem;
+    gap: 0.5rem;
+
+    .title-bar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     h3 {
         font-size: 1.7rem;
         font-weight: 600;
     }
 
+    span {
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    p {
+        width: 100%;
+        color: ${colors.textGray};
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
     img {
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        max-width: 300px;
+        max-height: 300px;
         border-radius: 2rem;
     }
 
