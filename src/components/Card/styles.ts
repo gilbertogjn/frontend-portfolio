@@ -27,6 +27,7 @@ export const CardContainer = styled.div`
     span {
         font-size: 1.5rem;
         display: flex;
+        gap: 4px;
     }
 
     p {

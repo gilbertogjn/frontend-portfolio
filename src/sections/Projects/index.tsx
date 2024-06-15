@@ -13,6 +13,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
 
 const Projects = () => (
   <ProjectsContainer id="projects">
@@ -28,9 +29,10 @@ const Projects = () => (
             <FaCss3Alt />
             <IoLogoJavascript />
             <FaReact />
+            <SiTypescript />
           </>
         }
-        description="WebApp de delivery de comida feito com HTML, CSS, JS e React com Redux."
+        description="WebApp de delivery de comida feito com HTML, CSS, JS, TypeSript e React com Redux."
         githubLink="https://github.com/gilbertogjn/efood"
         liveLink="https://efood-v2-ten.vercel.app/"
       />
@@ -60,9 +62,10 @@ const Projects = () => (
             <FaCss3Alt />
             <IoLogoJavascript />
             <FaReact />
+            <SiTypescript />
           </>
         }
-        description="Interface de pedido de reservas de compras feita com HTML, CSS, JS e React com Redux."
+        description="Interface de pedido de reservas de compras feita com HTML, CSS, JS, TypeScript e React com Redux."
         githubLink="https://github.com/gilbertogjn/ocado_reserved"
         liveLink="https://ocado-reserved.vercel.app/"
       />
