@@ -24,10 +24,8 @@ const About = () => (
             <AboutCard>
               <FaUserGraduate className="icon" />
               <h3>Formação</h3>
-              <p>
-                Graduado em Análise e Desenvolvimento de Sistemas, especializado
-                em Frontend Development
-              </p>
+              <p>• Graduado em Análise e Desenvolvimento de Sistemas</p>
+              <p>• Especializado em Frontend Development</p>
             </AboutCard>
           </CardsContainer>
           <p>

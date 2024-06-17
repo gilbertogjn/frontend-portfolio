@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Button = ({ children, className, href }: Props) => (
-  <a target="_blank" href={href}>
+  <a href={href}>
     <ButtonContainer className={className}>{children}</ButtonContainer>
   </a>
 );

@@ -10,7 +10,7 @@ export const CardContainer = styled.div`
     background-color: ${colors.bgWhite};
     border-radius: 2rem;
     padding: 2rem;
-    gap: 0.5rem;
+    gap: 1rem;
 
     .title-bar {
         width: 100%;
@@ -20,7 +20,7 @@ export const CardContainer = styled.div`
     }
 
     h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
@@ -34,7 +34,6 @@ export const CardContainer = styled.div`
         width: 100%;
         color: ${colors.textGray};
         text-align: left;
-        margin-bottom: 8px;
     }
 
     img {
@@ -42,6 +41,8 @@ export const CardContainer = styled.div`
         max-width: 300px;
         max-height: 300px;
         border-radius: 2rem;
+        border: 1px solid ${colors.borderGray};
+        margin-bottom: 0.5rem;
     }
 
     .buttons {

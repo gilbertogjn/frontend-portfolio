@@ -8,12 +8,18 @@ import project2 from "../../images/tenzies-project.webp";
 import project3 from "../../images/ocado-project.webp";
 import project4 from "../../images/contacts-project.webp";
 import project5 from "../../images/2001-project.webp";
+import project6 from "../../images/disney-project.webp";
+import project7 from "../../images/pedals-project.webp";
+import project8 from "../../images/tarefas-project.webp";
+import project9 from "../../images/bender-project.webp";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { FaVuejs } from "react-icons/fa";
 
 const Projects = () => (
   <ProjectsContainer id="projects">
@@ -100,7 +106,69 @@ const Projects = () => (
         githubLink="https://github.com/gilbertogjn/landing-page-space-odissey"
         liveLink="https://landing-page-space-odissey.vercel.app/"
       />
-      <Card></Card>
+      <Card
+        img={project6}
+        alt="Clone Disney+"
+        title="Disney+"
+        skills={
+          <>
+            <FaHtml5 />
+            <FaCss3Alt />
+            <IoLogoJavascript />
+          </>
+        }
+        description="Clone fictício de Disney+ feito com HTML, CSS e JS."
+        githubLink="https://github.com/gilbertogjn/clone_disneyplus"
+        liveLink="https://clone-disneyplus-zeta-three.vercel.app/"
+      />
+      <Card
+        img={project7}
+        alt="PedalBoard Store"
+        title="PedalBoard"
+        skills={
+          <>
+            <FaHtml5 />
+            <FaCss3Alt />
+            <IoLogoJavascript />
+            <FaBootstrap />
+          </>
+        }
+        description="Homepage de uma loja de pedais de guitarra feita com HTML, CSS, JS e Bootstrap."
+        githubLink="https://github.com/gilbertogjn/loja_pedalboard"
+        liveLink="https://loja-pedalboard.vercel.app/"
+      />
+      <Card
+        img={project8}
+        alt="Lista de Tarefas"
+        title="Tarefas"
+        skills={
+          <>
+            <FaHtml5 />
+            <FaCss3Alt />
+            <IoLogoJavascript />
+            <FaVuejs />
+            <FaBootstrap />
+          </>
+        }
+        description="WebApp de lista de tarefas feito com HTML, CSS, JS e VueJS."
+        githubLink="https://github.com/gilbertogjn/to_do-vue"
+        liveLink="https://to-do-vue-lime.vercel.app/"
+      />
+      <Card
+        img={project9}
+        alt="Bender Guitars"
+        title="Bender"
+        skills={
+          <>
+            <FaHtml5 />
+            <FaCss3Alt />
+            <IoLogoJavascript />
+          </>
+        }
+        description="Homepage de uma loja de guitarras feita com HTML, CSS e JS."
+        githubLink="https://github.com/gilbertogjn/bender-guitars"
+        liveLink="https://bender-guitars.vercel.app/"
+      />
     </CardsContainer>
     <ScrollButton anchor="#contact" />
   </ProjectsContainer>

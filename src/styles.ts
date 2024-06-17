@@ -43,6 +43,6 @@ export const GlobalStyle = createGlobalStyle`
 
     section, footer {
         position: relative;
-        padding: 4rem 0;
+        padding: 6rem 0;
     }
 `;
