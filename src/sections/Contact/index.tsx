@@ -3,7 +3,6 @@ import { ContactContainer } from "./styles";
 
 import { ImMail } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
-import Link from "../../components/Link";
 
 const Contact = () => (
   <ContactContainer id="contact">
