@@ -39,7 +39,7 @@ const Projects = () => (
           </>
         }
         description="WebApp de delivery de comida feito com HTML, CSS, JS, TypeSript e React com Redux."
-        githubLink="https://github.com/gilbertogjn/efood"
+        githubLink="https://github.com/gilbertogjn/efood_v2"
         liveLink="https://efood-v2-ten.vercel.app/"
       />
       <Card

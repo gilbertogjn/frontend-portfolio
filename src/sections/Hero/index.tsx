@@ -20,7 +20,7 @@ export const Hero = () => (
         <h1>Gilberto Garcia</h1>
         <p className="text_p2">Frontend Developer</p>
         <BtnsContainer>
-          <Button href="#">Baixar Currículo</Button>
+          <Button href="/cv-gilberto-garcia.pdf">Baixar Currículo</Button>
           <Button href="#contact" className="contact">
             Entrar em Contato
           </Button>
