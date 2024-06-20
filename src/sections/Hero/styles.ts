@@ -10,6 +10,11 @@ export const HeroContainer = styled.section`
     align-items: center;
     gap: 5rem;
     height: 64vh;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
 `;
 
@@ -17,6 +22,10 @@ export const HeroImg = styled.img`
   width: 400px;
   height: 400px;
   border-radius: 50%;
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
 `;
 
 export const HeroInfo = styled.div`

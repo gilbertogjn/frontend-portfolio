@@ -16,6 +16,10 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
         list-style: none;
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
     }
 
     html {

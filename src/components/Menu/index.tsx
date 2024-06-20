@@ -1,7 +1,11 @@
 import Link from "../Link";
 
-const Menu = () => (
-    <nav>
+type Props = {
+    className?: string
+}
+
+const Menu = ({ className }: Props) => (
+    <nav className={className}>
         <ul>
             <li><Link href={"#about"}>Sobre</Link></li>
             <li><Link href={"#experience"}>Experiência</Link></li>
