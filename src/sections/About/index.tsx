@@ -30,9 +30,8 @@ const About = () => (
           </CardsContainer>
           <p>
             Sou um entusiasta de tecnologia apaixonado por criar experiências
-            visuais incríveis na web. Atualmente, estou à procura de uma
-            oportunidade como desenvolvedor front-end para aplicar minhas
-            habilidades e conhecimentos adquiridos.
+            visuais incríveis na web. Especializado em desenvolvimento Frontend
+            com foco em React.
           </p>
         </div>
       </AboutInfo>
