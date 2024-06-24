@@ -36,6 +36,20 @@ export const ExperienceCard = styled.div`
     margin-top: 6px;
     margin-right: 22px;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 2.5rem;
+
+    .icons {
+      grid-template-columns: repeat(2, max-content);
+      gap: 2rem;
+      justify-content: space-between;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
 `;
 
 export const IconContainer = styled.div`
@@ -57,5 +71,9 @@ export const IconContainer = styled.div`
     p {
       color: ${colors.textGray};
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
   }
 `;

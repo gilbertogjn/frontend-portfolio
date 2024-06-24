@@ -7,7 +7,7 @@ type Props = {
 
 const ScrollButton = ({anchor}: Props) => (
   <ScrollLink href={anchor}>
-    <RiArrowDownDoubleFill />
+    <RiArrowDownDoubleFill className="icon" />
   </ScrollLink>
 );
 

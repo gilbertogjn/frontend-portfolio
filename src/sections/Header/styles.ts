@@ -20,8 +20,6 @@ export const HeaderContainer = styled.header`
 
     ul {
       font-size: 1.5rem;
-      li {
-      }
     }
 
     .menu-icon {
@@ -30,11 +28,15 @@ export const HeaderContainer = styled.header`
   }
 
   @media screen and (max-width: 768px) {
-    height: auto;
     padding: 1rem;
 
     .container {
       display: block;
+      position: relative;
+
+      .logo {
+        font-size: 1.5rem;
+      }
 
       .menu-icon {
         display: inline;
@@ -51,15 +53,27 @@ export const HeaderContainer = styled.header`
       }
 
       .menu {
-        display: none;
+        opacity: 0;
+        transition: all 0.2s;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 10;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1rem;
+          gap: 0rem;
+
+          li {
+            padding: 0 0 1rem;
+          }
+        }
 
         &.active {
           width: 100%;
           display: block;
-
-          ul {
-            display: block;
-          }
+          opacity: 1;
         }
       }
     }

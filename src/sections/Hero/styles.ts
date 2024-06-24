@@ -24,7 +24,7 @@ export const HeroImg = styled.img`
   border-radius: 50%;
 
   @media (max-width: 768px) {
-    width: 70%;
+    width: 60%;
   }
 `;
 
@@ -43,11 +43,20 @@ export const HeroInfo = styled.div`
 
   h1 {
     font-size: 3rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
   }
 
   .text_p2 {
     font-size: 1.75rem;
     color: ${colors.textGray};
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 `;
 
@@ -62,4 +71,10 @@ export const SocialContainer = styled.div`
   gap: 1rem;
   margin-top: 1rem;
   font-size: 2rem;
+
+  @media screen and (max-width: 768px) {
+    .icon {
+      font-size: 2rem;
+    }
+  }
 `;

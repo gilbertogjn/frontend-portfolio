@@ -16,4 +16,12 @@ export const HeadingContainer = styled.div`
   p {
     color: ${colors.textGray};
   }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1rem;
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
 `;

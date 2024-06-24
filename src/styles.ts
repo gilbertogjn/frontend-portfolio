@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
 
         @media screen and (max-width: 768px) {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 
@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 1024px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 1rem;
+        padding: 0 1.5rem;
 
         ul {
             display: flex;
@@ -48,5 +48,9 @@ export const GlobalStyle = createGlobalStyle`
     section, footer {
         position: relative;
         padding: 6rem 0;
+
+        @media screen and (max-width: 768px) {
+            padding: 4rem 0;
+        }
     }
 `;

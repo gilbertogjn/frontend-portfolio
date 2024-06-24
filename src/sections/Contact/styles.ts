@@ -30,5 +30,9 @@ export const ContactContainer = styled.section`
         color: ${colors.textGray};
       }
     }
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 `;

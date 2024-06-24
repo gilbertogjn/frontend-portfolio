@@ -20,6 +20,16 @@ export const AboutInfo = styled.div`
     height: 400px;
     border-radius: 2rem;
   }
+
+  @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;
+
+      img {
+        width: 60%;
+        height: auto;
+      }
+  }
 `;
 
 export const CardsContainer = styled.div`

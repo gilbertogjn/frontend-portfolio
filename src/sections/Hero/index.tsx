@@ -27,10 +27,10 @@ export const Hero = () => (
         </BtnsContainer>
         <SocialContainer>
           <a target="_blank" href="https://www.linkedin.com/in/gilbertogarcia-frontend/">
-            <FaLinkedin />
+            <FaLinkedin className="icon" />
           </a>
           <a target="_blank" href="https://github.com/gilbertogjn">
-            <FaGithub />
+            <FaGithub className="icon" />
           </a>
         </SocialContainer>
       </HeroInfo>
