@@ -25,6 +25,7 @@ export const HeroImg = styled.img`
 
   @media (max-width: 768px) {
     width: 60%;
+    height: auto;
   }
 `;
 

@@ -5,7 +5,7 @@ import {
   HeroInfo,
   SocialContainer,
 } from "./styles";
-import profile from "../../images/profile.png";
+import profile from "../../images/profile.webp";
 import Button from "../../components/Button";
 
 import { FaLinkedin } from "react-icons/fa";

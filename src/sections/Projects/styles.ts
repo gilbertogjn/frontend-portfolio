@@ -6,6 +6,14 @@ export const ProjectsContainer = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const CardsContainer = styled.div`
