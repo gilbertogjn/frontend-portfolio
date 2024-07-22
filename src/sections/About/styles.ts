@@ -10,7 +10,7 @@ export const AboutContainer = styled.section`
 
 export const AboutInfo = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 5rem;
   width: 100%;
