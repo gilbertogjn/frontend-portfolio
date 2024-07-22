@@ -1,6 +1,6 @@
 import Heading from "../../components/Heading";
 import { AboutCard, AboutContainer, AboutInfo, CardsContainer } from "./styles";
-import profile2 from "../../images/profile2.jpg";
+import profile2 from "../../images/profile2.webp";
 
 import { PiMedalFill } from "react-icons/pi";
 import { FaUserGraduate } from "react-icons/fa";
